@@ -1,0 +1,118 @@
+:root {
+  --color-primary-100: hsl(225, 100%, 94%);
+  --color-primary-400: hsl(245, 75%, 52%);
+
+  --color-neutral-100: hsl(225, 100%, 98%);
+  --color-neutral-400: hsl(223, 36%, 47%);
+  --color-neutral-700: hsl(223, 47%, 23%);
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--color-primary-100) repeat-x
+    url(/images/pattern-background-desktop.svg);
+  margin: 0;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+h1 {
+  color: var(--color-neutral-700);
+}
+h1,
+h3,
+.btn-proceed,
+.cancel-order {
+  font-weight: 900;
+}
+.container {
+  max-width: 25em;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0px 12px 20px 0px rgba(114, 128, 167, 0.3);
+  margin: 0 auto 0 auto;
+}
+.container > p {
+  max-width: 25ch;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--color-neutral-400);
+}
+.hero-img {
+  max-width: 100%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.plan-details {
+  display: flex;
+  flex-direction: row;
+  width: 20rem;
+  background-color: var(--color-neutral-100);
+  border-radius: 1rem;
+  margin: 0 auto 1rem auto;
+}
+.plan-details * {
+  margin: auto;
+}
+.plan-details img,
+a {
+  align-self: center;
+}
+.plan-details a {
+  color: var(--color-primary-400);
+  font-weight: 900;
+}
+.plan-details a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+.plan-type {
+  text-align: left;
+  margin-left: 0;
+}
+.plan-type h3 {
+  margin: 1rem 0 0.5rem 0;
+  color: var(--color-neutral-700);
+}
+.plan-type p {
+  margin: 0 0 1rem 0;
+  color: var(--color-neutral-400);
+}
+.btn-proceed {
+  background-color: var(--color-primary-400);
+  color: var(--color-neutral-100);
+  width: 20rem;
+  border-radius: 1rem;
+  margin: 1rem auto 1rem auto;
+  text-decoration: none;
+  box-shadow: 0px 12px 20px 0px rgba(114, 128, 167, 0.3);
+  font-weight: 900;
+}
+.btn-proceed:hover {
+  opacity: 0.8;
+}
+.action-call {
+  display: flex;
+  flex-direction: column;
+}
+.cancel-order {
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--color-neutral-400);
+  margin-bottom: 1rem;
+}
+.cancel-order:hover {
+  color: var(--color-neutral-700);
+}
+@media (max-width: 25rem) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
