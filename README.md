@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL] (https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-1uM_yHabO)
-- [Live Site URL] (https://jolly-panini-675e73.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-1uM_yHabO)
+- [Live Site URL](https://jolly-panini-675e73.netlify.app/)
 
 ## My process
 
