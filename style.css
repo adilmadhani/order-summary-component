@@ -24,8 +24,11 @@ section {
 h1 {
   color: var(--color-neutral-700);
 }
+h2 {
+  font-size: 1rem;
+}
 h1,
-h3,
+h2,
 .btn-proceed,
 .cancel-order {
   font-weight: 900;
@@ -76,7 +79,7 @@ a {
   text-align: left;
   margin-left: 0;
 }
-.plan-type h3 {
+.plan-type h2 {
   margin: 1rem 0 0.5rem 0;
   color: var(--color-neutral-700);
 }
